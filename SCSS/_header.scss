@@ -1,1 +1,17 @@
-SCSS
+header {
+  background-color: $color;
+  font-family: "Azeret Mono", monospace;
+  nav {
+    margin: inherit;
+    padding: inherit;
+    width: 100%;
+    ul {
+      li {
+        &:hover {
+          cursor: pointer;
+          color: $colord9;
+        }
+      }
+    }
+  }
+}
