@@ -1,8 +1,23 @@
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Azeret Mono", monospace;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background-color: #f60074;
+  font-family: "Azeret Mono", monospace;
+}
+
+header nav {
+  margin: inherit;
+  padding: inherit;
+  width: 100%;
+}
+
+header nav ul li:hover {
+  cursor: pointer;
+  color: #d9eee1;
 }
 /*# sourceMappingURL=main.css.map */
