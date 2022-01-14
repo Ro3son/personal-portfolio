@@ -1,6 +1,7 @@
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-image: url("chrome://global/skin/media/imagedoc-darknoise.png");
   margin: 0;
   padding: 0;
 }
@@ -19,5 +20,13 @@ header nav {
 header nav ul li:hover {
   cursor: pointer;
   color: #d9eee1;
+}
+
+.welcome-section {
+  background-image: url("chrome://global/skin/media/imagedoc-darknoise.png");
+  font-family: "Azeret Mono", monospace;
+  margin: 12em auto 12em auto;
+  padding: 12em auto 12em auto;
+  color: #909098;
 }
 /*# sourceMappingURL=main.css.map */
