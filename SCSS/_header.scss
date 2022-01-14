@@ -1,5 +1,5 @@
 header {
-  background-color: $color;
+  background-color: $pinkf6;
   font-family: "Azeret Mono", monospace;
   nav {
     margin: inherit;
@@ -9,7 +9,7 @@ header {
       li {
         &:hover {
           cursor: pointer;
-          color: $colord9;
+          color: $greend9;
         }
       }
     }
