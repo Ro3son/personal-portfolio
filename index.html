@@ -33,13 +33,17 @@
     <header class="fs-1 p-3 m-0">
       <nav class="text-end">
         <ul class="list-unstyled list-inline p-2 m-2">
-          <li class="list-inline-item">Sobre</li>
-          <li class="list-inline-item">Projetos</li>
-          <li class="list-inline-item">Contato</li>
+          <li class="list-inline-item"><a href="#welcome-section"></a>Sobre</li>
+          <li class="list-inline-item">
+            <a href="#projects-section"></a>Projetos
+          </li>
+          <li class="list-inline-item">
+            <a href="#contact-section"></a>Contato
+          </li>
         </ul>
       </nav>
     </header>
-    <section class="d-block text-center welcome-section">
+    <section class="d-block text-center welcome-section" id="welcome-section">
       <h1>Robson De Andrade</h1>
       <li class="fs-3 list-unstyled">
         Interessado em: <span> Desenvolvimento Front-end</span>
@@ -62,8 +66,9 @@
       </li>
     </section>
 
-    <section class="projects-section">
-      <div class="project tile"></div>
+    <section class="container-fluid projects-section" id="projects-section">
+      <h2 class="fs-2 text-center">Meus Projetos</h2>
+      <div class="projects"></div>
     </section>
 
     <section id="contact-section">
@@ -76,6 +81,15 @@
       </li>
     </section>
 
-    <footer></footer>
+    <footer>
+      <p>Criado por Robson de Andrade</p>
+      <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-top-top"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </footer>
   </body>
 </html>
