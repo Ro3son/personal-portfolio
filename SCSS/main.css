@@ -29,4 +29,10 @@ header nav ul li:hover {
   padding: 12em auto 12em auto;
   color: #909098;
 }
+
+.projects-section {
+  font-family: "Azeret Mono", monospace;
+  width: 100%;
+  background: #d9eee1;
+}
 /*# sourceMappingURL=main.css.map */
