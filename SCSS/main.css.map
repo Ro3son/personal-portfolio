@@ -9,7 +9,8 @@
         "_welcome-section.scss",
         "_projects-section.scss",
         "_contact-section.scss",
-        "_footer.scss"
+        "_footer.scss",
+        "_responsive.scss"
     ],
     "names": [],
     "file": "main.css"
