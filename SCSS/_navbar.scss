@@ -1,1 +1,17 @@
-SCSS
+$pinkf6: #f60074; /*Variable Color*/
+$black00: #000;
+$greend9: #d9eee1;
+
+.navbar-custom {
+  background-color: $pinkf6;
+  .navbar-brand {
+    font-size: 3em;
+    .bi-code-square {
+      color: $black00;
+    }
+  }
+  button,
+  .navbar-toggler {
+    background-color: $black00;
+  }
+}
