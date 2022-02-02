@@ -1,56 +1,24 @@
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-image: url("chrome://global/skin/media/imagedoc-darknoise.png");
-  margin: 0;
-  padding: 0;
-}
-
-header {
+/*Variable Color*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&family=Ubuntu:wght@300&display=swap");
+.navbar-custom {
   background-color: #f60074;
-  font-family: "Azeret Mono", monospace;
 }
 
-header nav {
-  margin: inherit;
-  padding: inherit;
-  width: 100%;
+.navbar-custom .navbar-brand {
+  font-size: 3em;
 }
 
-header nav ul li:hover {
-  cursor: pointer;
-  color: #d9eee1;
+.navbar-custom .navbar-brand .bi-code-square {
+  color: #000;
 }
 
-.welcome-section {
-  background-image: url("chrome://global/skin/media/imagedoc-darknoise.png");
-  font-family: "Azeret Mono", monospace;
-  margin: 12em auto 12em auto;
-  padding: 12em auto 12em auto;
-  color: #909098;
+.navbar-custom button,
+.navbar-custom .navbar-toggler {
+  background-color: #000;
 }
 
-.projects-section {
-  font-family: "Azeret Mono", monospace;
-  font-weight: 400;
-  width: 100%;
-  height: 144vh;
-  background: #d9eee1;
-}
-
-.projects-section .container .row .col i {
-  font-size: 10em;
-  cursor: pointer;
-}
-
-.contact-section {
-  font-family: "Azeret Mono", monospace;
-  width: 100%;
-  height: 20vh;
-}
-
-.footer {
-  font-family: 'Azeret Mono', monospace;
-  background-image: inherit;
+* {
+  font-family: "Ubuntu", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
