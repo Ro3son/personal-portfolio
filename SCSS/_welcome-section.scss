@@ -1,3 +1,14 @@
 #welcome-section {
-    font-family: "Azeret Mono", monospace;
+  font-family: "Azeret Mono", monospace;
+  color: $greend9;
+  .list-unstyled {
+    cursor: pointer;
+    i,
+    .fas fa-code {
+      color: $orangefd;
+    }
+    .sass-icon {
+      color: $pinkcf;
+    }
   }
+}
