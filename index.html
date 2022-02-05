@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
   <nav class="navbar navbar-custom navbar-expand-lg navbar-light py-2">
     <!-- require wrap classes.
 Create a navbar-custom class for the navigation bar.
@@ -37,7 +38,7 @@ This class is styled using SCSS -->
             <!-- nav-link default removed, add link-dark for style -->
           </li>
           <li class="nav-item fs-3">
-            <a href="#project-section" class="link-dark text-decoration-none">Projetos_</a>
+            <a href="#projects-section" class="link-dark text-decoration-none">Projetos_</a>
           </li>
           <li class="nav-item fs-3">
             <a href="#contact-section" class="link-dark text-decoration-none">Contato_</a>
@@ -46,29 +47,93 @@ This class is styled using SCSS -->
       </div>
     </div>
   </nav>
-  <section class="p-5 bg-dark text-light text-center text-sm-center" id="welcome-section">
+
+  <section class="p-5 bg-dark text-center" id="welcome-section">
     <div class="container">
-      <div class="d-sm-flex align-items-center justify-content-center">
+      <div class="d-sm-flex align-items-center justify-content-beetween custom-section">
         <div>
-          <h1>Robson De Andrade</h1>
+          <h1 class="fs-2">Robson De Andrade</h1>
           <p class="lead my-4">
             Estudante <span class="text-danger">Front-end</span>
           </p>
         </div>
       </div>
-      <ul>
-        <li class="fs-2 list-unstyled">
-          <span><i class="text-warning fas fa-code"></i></span>
-          <span><i class="text-info fab fa-css3-alt"></i></span>
-          <span><i class="text-danger fab fa-sass"></i></span>
-          <span><i class="text-primary fab fa-bootstrap"></i></span>
-          <span><i class="text-warning fab fa-js-square"></i></span>
-          <span><i class="text-danger fab fa-git-alt"></i></span>
-        </li>
-      </ul>
+      <div>
+        <ul class="fs-2 ps-0">
+          <li class="list-unstyled">
+            <span><i class="fas fa-code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML"></i></span>
+            <span><i class="text-info fab fa-css3-alt" data-bs-toggle=" tooltip" data-bs-placement="bottom"
+                title="CSS"></i></span>
+            <span><i class="fab fa-sass sass-icon" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="SCSS"></i></span>
+            <span><i class="text-primary fab fa-bootstrap" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="BOOTSTRAP 5"></i></span>
+            <span><i class="text-warning fab fa-js-square" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="JAVASCRIPT"></i></span>
+            <span><i class="text-danger fab fa-git-alt" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="GIT"></i></span>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="list-icons"></div>
   </section>
+
+  <section class="p-5" id="projects-section">
+    <div class="container">
+      <h2 class="text-center pb-4">Meus Projetos</h2>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-bicycle"></i>
+              </div>
+              <h3 class="card-title mb-3">Projeto I</h3>
+              <p class="card-text">Bicicletaria Sport Website</p>
+              <a href="https://ro3son.github.io/web-page-sport-bike/" class="btn btn-primary">Veja aqui</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-box-arrow-in-right"></i>
+              </div>
+              <h3 class="card-title mb-3">Projeto II</h3>
+              <p class="card-text">Login Form</p>
+              <a href="https://ro3son.github.io/web-page-sport-bike/login.html" class="btn btn-primary">Veja aqui</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-bicycle"></i>
+              </div>
+              <h3 class="card-title mb-3">Projeto III</h3>
+              <p class="card-text">Bits Net Website</p>
+              <a href="#" class="btn btn-primary">Veja aqui</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-bicycle"></i>
+              </div>
+              <h3 class="card-title mb-3">Projeto IV</h3>
+              <p class="card-text">WonderLust Website</p>
+              <a href="#" class="btn btn-primary">Veja aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 </body>
 
 </html>
