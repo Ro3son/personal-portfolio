@@ -1,19 +1,53 @@
 // Device Breakpoints //
 
 @media only screen and (max-width: 600px) {
-
+  #welcome-section {
+    .container {
+      .custom-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 600px) {
-
+  #welcome-section {
+    height: 50vh;
+    .container {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+      .custom-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 768px) {
-
 }
 @media only screen and (min-width: 992px) {
-
 }
 @media only screen and (min-width: 1200px) {
-
+  #welcome-section {
+    height: 75vh;
+    .container {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      .custom-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          font-size: 4rem !important;
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 }
 
-// Optei pela regra de Media Queries para aprender mais sobre CSS Responsive.
+// Optei pela regra de Media Queries para aprender mais sobre CSS Responsivo.
