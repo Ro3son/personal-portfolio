@@ -5,7 +5,7 @@
 }
 
 .navbar-custom .navbar-brand {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .navbar-custom .navbar-brand .bi-code-square {
@@ -28,5 +28,81 @@
 
 #welcome-section {
   font-family: "Azeret Mono", monospace;
+  color: #d9eee1;
+}
+
+#welcome-section .list-unstyled {
+  cursor: pointer;
+}
+
+#welcome-section .list-unstyled i,
+#welcome-section .list-unstyled .fas fa-code {
+  color: #fd7e14;
+}
+
+#welcome-section .list-unstyled .sass-icon {
+  color: #cf649a;
+}
+
+@media only screen and (max-width: 600px) {
+  #welcome-section .container .custom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #welcome-section {
+    height: 50vh;
+  }
+  #welcome-section .container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  #welcome-section .container .custom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #welcome-section {
+    height: 75vh;
+  }
+  #welcome-section .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  #welcome-section .container .custom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #welcome-section .container .custom-section h1 {
+    font-size: 4rem !important;
+  }
+  #welcome-section .container .custom-section p {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
