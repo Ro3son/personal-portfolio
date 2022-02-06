@@ -1,14 +1,27 @@
 #welcome-section {
   font-family: "Azeret Mono", monospace;
   color: $greend9;
-  .list-unstyled {
-    cursor: pointer;
-    i,
-    .fas fa-code {
-      color: $orangefd;
-    }
-    .sass-icon {
-      color: $pinkcf;
+  .container {
+    .icons {
+      .list-icons {
+        li i {
+          cursor: pointer;
+          color: $pinkf6;
+          &:hover {
+            transform: scale(1.1);
+          }
+          &:hover::before {
+            transform: skewX(20deg);
+            border-left: 3px solid;
+            border-right: 3px solid;
+          }
+          &:hover::after {
+            transform: skewY(-25deg);
+            border-left: 3px solid;
+            border-right: 3px solid;
+          }
+        }
+      }
     }
   }
 }
