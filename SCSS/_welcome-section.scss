@@ -2,6 +2,18 @@
   font-family: "Azeret Mono", monospace;
   color: $greend9;
   .container {
+    .custom-section {
+      span,
+        img {
+          .animated-img1 {
+            position: relative;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
+    }
     .icons {
       .list-icons {
         li i {
