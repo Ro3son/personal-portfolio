@@ -11,11 +11,6 @@
     }
   }
 }
-@media only screen and (max-width: 700px) {
-  ul.list-icons {
-    display: block;
-  }
-}
 @media only screen and (min-width: 600px) {
   #welcome-section {
     height: 50vh;
@@ -50,9 +45,20 @@
         p {
           font-size: 2rem;
         }
+        span,
+        img {
+          .animated-img1 {
+            position: relative;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
       }
     }
     .icons {
+      /*Transform hover animated*/
       .list-icons {
         display: flex;
         list-style: none;
