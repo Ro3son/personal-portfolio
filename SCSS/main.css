@@ -10,6 +10,31 @@
 
 .navbar-custom .navbar-brand .bi-code-square {
   color: #000;
+  position: relative;
+  -webkit-animation-name: codesquare;
+          animation-name: codesquare;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes codesquare {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+
+@keyframes codesquare {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
 }
 
 .navbar-custom button,
@@ -69,12 +94,6 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
-  ul.list-icons {
-    display: block;
-  }
-}
-
 @media only screen and (min-width: 600px) {
   #welcome-section {
     height: 50vh;
@@ -120,6 +139,19 @@
   }
   #welcome-section .container .custom-section p {
     font-size: 2rem;
+  }
+  #welcome-section .container .custom-section span .animated-img1,
+  #welcome-section .container .custom-section img .animated-img1 {
+    position: relative;
+    cursor: pointer;
+  }
+  #welcome-section .container .custom-section span .animated-img1:hover,
+  #welcome-section .container .custom-section img .animated-img1:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  #welcome-section .icons {
+    /*Transform hover animated*/
   }
   #welcome-section .icons .list-icons {
     display: -webkit-box;
