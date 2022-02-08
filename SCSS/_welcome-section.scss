@@ -1,24 +1,19 @@
 #welcome-section {
   font-family: "Azeret Mono", monospace;
+  background-color: $black1a;
   color: $greend9;
   .container {
     .custom-section {
-      span,
-        img {
-          .animated-img1 {
-            position: relative;
-            cursor: pointer;
-            &:hover {
-              transform: scale(1.1);
-            }
-          }
-        }
+      span {
+        cursor: pointer;
+        color: $pinkf6;
+      }
     }
     .icons {
       .list-icons {
         li i {
           cursor: pointer;
-          color: $pinkf6;
+          color: $blue1c;
           &:hover {
             transform: scale(1.1);
           }
