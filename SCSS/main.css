@@ -52,7 +52,7 @@
 }
 
 #welcome-section {
-  font-family: "Azeret Mono", monospace;
+  font-family: "Azeret mono", monospace;
   background-color: #1a1a1a;
   color: #d9eee1;
 }
@@ -84,6 +84,38 @@
           transform: skewY(-25deg);
   border-left: 3px solid;
   border-right: 3px solid;
+}
+
+#projects-section {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#projects-section .container h2 {
+  color: #d9eee1;
+}
+
+#projects-section .container h2:hover {
+  color: #f60074;
+}
+
+#projects-section .container i {
+  font-size: 3.2rem;
+}
+
+#projects-section .container i:hover {
+  color: #1cbfff;
+}
+
+#projects-section .container .card-body:hover {
+  background-color: #1a1a1a;
+}
+
+#projects-section .container .card-title:hover {
+  color: #1cbfff;
+}
+
+#projects-section .container .btn:hover {
+  background-color: #f60074;
 }
 
 @media only screen and (max-width: 600px) {
@@ -123,11 +155,11 @@
 
 @media only screen and (min-width: 1200px) {
   #welcome-section {
-    height: 75vh;
+    height: 100vh;
   }
   #welcome-section .container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   #welcome-section .container .custom-section {
     display: -webkit-box;
@@ -193,5 +225,9 @@
     border-left: 3px solid;
     border-right: 3px solid;
   }
+}
+
+#projects-section {
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
