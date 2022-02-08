@@ -1,1 +1,32 @@
-
+#projects-section {
+  font-family: "Ubuntu", sans-serif;
+  .container {
+    h2 {
+      color: $greend9;
+      &:hover {
+        color: $pinkf6;
+      }
+    }
+    i {
+      font-size: 3.2rem;
+      &:hover {
+        color: $blue1c;
+      }
+    }
+    .card-body {
+      &:hover {
+        background-color: $black1a;
+      }
+    }
+    .card-title {
+      &:hover {
+        color: $blue1c;
+      }
+    }
+    .btn {
+      &:hover {
+        background-color: $pinkf6;
+      }
+    }
+  }
+}
