@@ -52,7 +52,7 @@
 }
 
 #welcome-section {
-  font-family: "Azeret mono", monospace;
+  font-family: "Azeret Mono", monospace;
   background-color: #1a1a1a;
   color: #d9eee1;
 }
@@ -116,20 +116,6 @@
 
 #projects-section .container .btn:hover {
   background-color: #f60074;
-}
-
-@media only screen and (max-width: 600px) {
-  #welcome-section .container .custom-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -225,9 +211,5 @@
     border-left: 3px solid;
     border-right: 3px solid;
   }
-}
-
-#projects-section {
-  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
