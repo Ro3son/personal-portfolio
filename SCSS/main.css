@@ -10,31 +10,6 @@
 
 .navbar-custom .navbar-brand .bi-code-square {
   color: #f60074;
-  position: relative;
-  -webkit-animation-name: codesquare;
-          animation-name: codesquare;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-@-webkit-keyframes codesquare {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 200px;
-  }
-}
-
-@keyframes codesquare {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 200px;
-  }
 }
 
 .navbar-custom button,
@@ -118,6 +93,20 @@
   background-color: #f60074;
 }
 
+@media only screen and (max-width: 600px) {
+  #welcome-section .container .custom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   #welcome-section {
     height: 50vh;
@@ -139,13 +128,86 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  #welcome-section {
+    height: 50vh;
+  }
+  #welcome-section .container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  #welcome-section .container .custom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #welcome-section {
+    height: 60vh;
+  }
+  #welcome-section .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  #welcome-section .container .custom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #welcome-section .container .custom-section h1 {
+    font-size: 3rem !important;
+  }
+  #welcome-section .container .custom-section p {
+    font-size: 1.8rem;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
+  .navbar-custom .navbar-brand .bi-code-square {
+    position: relative;
+    -webkit-animation-name: codesquare;
+            animation-name: codesquare;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  @-webkit-keyframes codesquare {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 200px;
+    }
+  }
+  @keyframes codesquare {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 200px;
+    }
+  }
   #welcome-section {
     height: 100vh;
   }
   #welcome-section .container {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
   #welcome-section .container .custom-section {
     display: -webkit-box;
@@ -210,6 +272,13 @@
             transform: skewY(-25deg);
     border-left: 3px solid;
     border-right: 3px solid;
+  }
+  #projects-section {
+    height: 100%;
+  }
+  #projects-section .container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
