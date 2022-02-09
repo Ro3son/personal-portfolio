@@ -1,15 +1,15 @@
 // Device Breakpoints //
 
 @media only screen and (max-width: 600px) {
-  #welcome-section {
-    .container {
-      .custom-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-    }
-  }
+  //   #welcome-section {
+  //     .container {
+  //       .custom-section {
+  //         display: flex;
+  //         align-items: center;
+  //         justify-content: center;
+  //       }
+  //     }
+  //   }
 }
 @media only screen and (min-width: 600px) {
   #welcome-section {
@@ -91,7 +91,5 @@
     }
   }
 }
-#projects-section {
-  height: 100vh;
-}
+
 // Optei pela regra de Media Queries para aprender mais sobre CSS Responsivo.
