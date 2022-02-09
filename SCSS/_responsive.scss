@@ -1,15 +1,15 @@
 // Device Breakpoints //
 
 @media only screen and (max-width: 600px) {
-  //   #welcome-section {
-  //     .container {
-  //       .custom-section {
-  //         display: flex;
-  //         align-items: center;
-  //         justify-content: center;
-  //       }
-  //     }
-  //   }
+  #welcome-section {
+    .container {
+      .custom-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 600px) {
   #welcome-section {
@@ -26,15 +26,63 @@
   }
 }
 @media only screen and (min-width: 768px) {
+  #welcome-section {
+    height: 50vh;
+    .container {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+      .custom-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 992px) {
+  #welcome-section {
+    height: 60vh;
+    .container {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      .custom-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          font-size: 3rem !important;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: 1200px) {
+  .navbar-custom {
+    .navbar-brand {
+      .bi-code-square {
+        position: relative;
+        animation-name: codesquare;
+        animation-duration: 2s;
+        animation-delay: 1s;
+      }
+    }
+    @keyframes codesquare {
+      from {
+        left: 0px;
+      }
+      to {
+        left: 200px;
+      }
+    }
+  }
   #welcome-section {
-    height: 100vh;
+    height: 100vh; // relative to the viewport
     .container {
-      padding-top: 8rem;
-      padding-bottom: 8rem;
+      padding-top: 7rem;
+      padding-bottom: 7rem;
       .custom-section {
         display: flex;
         align-items: center;
@@ -90,6 +138,11 @@
       }
     }
   }
+  #projects-section {
+    height: 100%; //relative to the parent
+    .container {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+    }
+  }
 }
-
-// Optei pela regra de Media Queries para aprender mais sobre CSS Responsivo.
