@@ -1,1 +1,17 @@
-
+#contact-section {
+  height: 82vh;
+  background-color: $black1a;
+  .container {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  h3 {
+    font-family: "Ubuntu", sans-serif;
+    color: $grey9a;
+  }
+  .icons {
+    i {
+      color: $pinkf6;
+    }
+  }
+}
