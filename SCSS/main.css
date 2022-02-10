@@ -93,6 +93,25 @@
   background-color: #f60074;
 }
 
+#contact-section {
+  height: 82vh;
+  background-color: #1a1a1a;
+}
+
+#contact-section .container {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+#contact-section h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #9a9c9e;
+}
+
+#contact-section .icons i {
+  color: #f60074;
+}
+
 @media only screen and (max-width: 600px) {
   #welcome-section .container .custom-section {
     display: -webkit-box;
