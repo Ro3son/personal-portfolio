@@ -94,7 +94,6 @@
 }
 
 #contact-section {
-  height: 100vh;
   background-color: #1a1a1a;
 }
 
@@ -105,17 +104,24 @@
 
 #contact-section .container h3 {
   font-family: "Ubuntu", sans-serif;
-  color: #9a9c9e;
+  color: #d9eee1;
 }
 
 #contact-section .container .icons i {
   color: #f60074;
 }
 
-#contact-section .container #map {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
+footer {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #121212;
+}
+
+footer p {
+  color: #d9eee1;
+}
+
+footer p a {
+  color: #1cbfff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -129,11 +135,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  #contact-section .container #map {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
   }
 }
 
@@ -177,6 +178,11 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #contact-section .container #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -203,6 +209,11 @@
   }
   #welcome-section .container .custom-section p {
     font-size: 1.8rem;
+  }
+  #contact-section .container #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
   }
 }
 
@@ -309,6 +320,11 @@
   #projects-section .container {
     padding-top: 2rem;
     padding-bottom: 4rem;
+  }
+  #contact-section .container #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
