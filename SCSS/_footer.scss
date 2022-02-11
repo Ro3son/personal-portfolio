@@ -1,1 +1,10 @@
-
+footer {
+  font-family: "Ubuntu", sans-serif;
+  background-color: $black12;
+  p {
+    color: $greend9;
+    a {
+      color: $blue1c;
+    }
+  }
+}
