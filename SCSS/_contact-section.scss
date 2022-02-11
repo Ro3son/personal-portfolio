@@ -1,17 +1,22 @@
 #contact-section {
-  height: 82vh;
+  height: 100vh;
   background-color: $black1a;
   .container {
     padding-top: 5rem;
-    padding-bottom: 2rem;
-  }
-  h3 {
-    font-family: "Ubuntu", sans-serif;
-    color: $grey9a;
-  }
-  .icons {
-    i {
-      color: $pinkf6;
+    padding-bottom: 5rem;
+    h3 {
+      font-family: "Ubuntu", sans-serif;
+      color: $grey9a;
+    }
+    .icons {
+      i {
+        color: $pinkf6;
+      }
+    }
+    #map {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
     }
   }
 }
