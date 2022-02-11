@@ -172,6 +172,21 @@ This class is styled using SCSS -->
       </div>
     </div>
   </section>
+
+  <footer class="p-5 border-top border-white text-center position-relative">
+    <div class="container">
+      <p class="lead">
+        Criado por Robson De Andrade com
+        <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" class="text-decoration-none">
+          bootstrap 5</a>
+      </p>
+      <p class="lead">&copy; 2022</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle fs-1"></i>
+      </a>
+    </div>
+  </footer>
+
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
   <script>
     mapboxgl.accessToken =
@@ -179,7 +194,7 @@ This class is styled using SCSS -->
     const map = new mapboxgl.Map({
       container: "map", // container ID
       style: "mapbox://styles/ro3son/ckzihm6t3000c14n2oyo65o2l", // style URL
-      center: [-13.662, -57.876], // starting position [lng, lat]
+      center: [-13.662, 57.876], // starting position [lng, lat]
       zoom: 12, // starting zoom
     });
   </script>
