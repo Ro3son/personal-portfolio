@@ -14,6 +14,8 @@
 @media only screen and (min-width: 600px) {
   #welcome-section {
     height: 50vh;
+    background: no-repeat center/100% $black1a
+      url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
     .container {
       padding-top: 2.5rem;
       padding-bottom: 2.5rem;
@@ -106,7 +108,18 @@
         align-items: center;
         justify-content: center;
         h1 {
-          font-size: 4rem !important;
+          font-size: 4rem;
+          &:hover {
+            color: $blue1c;
+            font-size: 6rem !important;
+          }
+        }
+        span {
+          cursor: pointer;
+          color: $pinkf6;
+          &:hover {
+            font-size: 3rem;
+          }
         }
         p {
           font-size: 2rem;
