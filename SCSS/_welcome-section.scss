@@ -4,6 +4,9 @@
   color: $greend9;
   .container {
     .custom-section {
+      h1 {
+        cursor: pointer;
+      }
       span {
         cursor: pointer;
         color: $pinkf6;
