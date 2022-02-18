@@ -32,6 +32,10 @@
   color: #d9eee1;
 }
 
+#welcome-section .container .custom-section h1 {
+  cursor: pointer;
+}
+
 #welcome-section .container .custom-section span {
   cursor: pointer;
   color: #f60074;
@@ -141,6 +145,7 @@ footer p a {
 @media only screen and (min-width: 600px) {
   #welcome-section {
     height: 50vh;
+    background: no-repeat center/100% #1a1a1a url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
   }
   #welcome-section .container {
     padding-top: 2.5rem;
@@ -262,7 +267,18 @@ footer p a {
             justify-content: center;
   }
   #welcome-section .container .custom-section h1 {
-    font-size: 4rem !important;
+    font-size: 4rem;
+  }
+  #welcome-section .container .custom-section h1:hover {
+    color: #1cbfff;
+    font-size: 6rem !important;
+  }
+  #welcome-section .container .custom-section span {
+    cursor: pointer;
+    color: #f60074;
+  }
+  #welcome-section .container .custom-section span:hover {
+    font-size: 3rem;
   }
   #welcome-section .container .custom-section p {
     font-size: 2rem;
