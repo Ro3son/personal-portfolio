@@ -3,6 +3,7 @@
   .container {
     h2 {
       color: $greend9;
+      cursor: pointer;
       &:hover {
         color: $pinkf6;
       }
