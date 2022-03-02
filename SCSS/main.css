@@ -71,6 +71,7 @@
 
 #projects-section .container h2 {
   color: #d9eee1;
+  cursor: pointer;
 }
 
 #projects-section .container h2:hover {
@@ -167,6 +168,7 @@ footer p a {
 @media only screen and (min-width: 768px) {
   #welcome-section {
     height: 50vh;
+    background: no-repeat center/100% #1a1a1a url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
   }
   #welcome-section .container {
     padding-top: 2.5rem;
@@ -193,6 +195,7 @@ footer p a {
 @media only screen and (min-width: 992px) {
   #welcome-section {
     height: 60vh;
+    background: no-repeat center/100% #1a1a1a url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
   }
   #welcome-section .container {
     padding-top: 3rem;
@@ -250,6 +253,7 @@ footer p a {
   }
   #welcome-section {
     height: 100vh;
+    background: no-repeat center/100% #1a1a1a url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
   }
   #welcome-section .container {
     padding-top: 7rem;
