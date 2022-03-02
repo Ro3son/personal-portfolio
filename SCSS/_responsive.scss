@@ -30,6 +30,8 @@
 @media only screen and (min-width: 768px) {
   #welcome-section {
     height: 50vh;
+    background: no-repeat center/100% $black1a
+      url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
     .container {
       padding-top: 2.5rem;
       padding-bottom: 2.5rem;
@@ -53,6 +55,8 @@
 @media only screen and (min-width: 992px) {
   #welcome-section {
     height: 60vh;
+    background: no-repeat center/100% $black1a
+      url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
     .container {
       padding-top: 3rem;
       padding-bottom: 3rem;
@@ -100,6 +104,8 @@
   }
   #welcome-section {
     height: 100vh; // relative to the viewport
+    background: no-repeat center/100% $black1a
+      url("/img/nate-grant-QQ9LainS6tI-unsplash.jpg");
     .container {
       padding-top: 7rem;
       padding-bottom: 7rem;
